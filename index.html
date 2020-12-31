@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Copyright (c) Pythonian Rabbotics 2020 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+        <style>
+            * {
+                font-family: 'Quicksand', sans-serif;
+                color: var(--bs-light) !important;
+            }
+            .activepi-img {
+                height: 50px;
+            }
+            .nav-button {
+                margin: 2.5px;
+                padding-left: 3px;
+                padding-right: 3px;
+            }
+            .description {
+                font-family: 'Comfortaa', sans-serif;
+                font-size: 1.8em;
+                max-width: 75%;
+                margin: auto;
+                font-weight: bold;
+                padding: 2.5%;
+                color: var(--bs-dark) !important;
+            }
+            ::-moz-selection {
+                color: var(--bs-cyan);
+                background: var(--bs-dark);
+            }
+
+            ::selection {
+                color: var(--bs-cyan);
+                background: var(--bs-dark);
+            }
+        </style>
+        <title>ActivePi!</title>
+    </head>
+    <body style="background-color: var(--bs-teal);">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="resources/ActivePi.png" class="activepi-img bg-dark img-fluid"></img>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="btn btn-primary nav-button nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-success nav-button nav-link" href="lesson_plans.html">Lesson Plans</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <p class="text-center description">
+            The ActivePi is a handheld Raspberry Pi-powered device designed to get people physically active and teach them how to program in Python! 
+            Users can code exercise games and projects. We are making lesson plans to teach users how to code the ActivePi and allow them to code anything they want! 
+            For example, users can code a game in which the more you walk, the more you level up and you can unlock things such as power-ups and more advanced coding projects, so you develop physical fitness and computer programming skills in parallel. 
+            Created by Alan Wong, Ben Goldberg, Joshua Smith, Kunal Toomu, and Yash Gupta from FLL 42, Pythonian Rabbotics.
+        </p>
+    </body>
+</html>
