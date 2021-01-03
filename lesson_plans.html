@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <!-- Copyright (c) Pythonian Rabbotics 2020 -->
+        <!-- Copyright (c) Pythonian Rabbotics 2020-2021 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -38,11 +38,9 @@
             dt:not(div) {
                 font-family: 'Fredoka One', sans-serif;
                 font-size: 1.2em;
-                height: 1.5em;
             }
             dd {
                 font-size: 1em;
-                height: 1.5em;
                 position: relative;
                 bottom: 0;
             }
@@ -74,6 +72,10 @@
                 max-width: 75%;
                 margin: auto;
                 padding: 2.5%;
+            }
+            .lesson-plan {
+                margin: 1px;
+                display: inline-flex;
             }
         </style>
         <title>ActivePi!</title>
@@ -113,9 +115,16 @@
                 <div class="advanced"></div>
             </dd>
             <hr>
-            <dt class="col-sm-2">Dino Game</dt>
-            <dt class="col-sm-1"><div class="advanced"></div></dt>
-            <dd class="col-sm-9">Google Chrome's dino game, except you have to physically jump over obstacles.</dd>
+            <div class="lesson-plan">
+                <dt class="col-sm-2">Dino Game</dt>
+                <dt class="col-sm-1"><div class="advanced"></div></dt>
+                <dd class="col-sm-9">Google Chrome's dino game, except you have to physically jump over obstacles.</dd>
+            </div>
+            <div class="lesson-plan">
+                <dt class="col-sm-2"><a href="https://docs.google.com/document/d/1GRzY3Ll2JtlGXUPw1XQmhMr6sUkBdZnunfvKTPCG4-4/edit" target="_blank" rel="noopener noreferrer">Step Counter</a></dt>
+                <dt class="col-sm-1"><div class="beginner"></div></dt>
+                <dd class="col-sm-9">A DIY step counter that you program in Python yourself!</dd>
+            </div>
         </dl>
     </body>
 </html>
